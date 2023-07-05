@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    background-color: rgb(236, 239, 241);
+    font-family: 'popains',sans-serif;
+}
+header{
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+
+}
+.lo h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: deeppink;
+    font-size: 40px;
+    margin-left: 10px 10px;
+}
+nav{
+    display: flex;
+
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    margin: 30px 30px;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    
+}
+.sign{
+    color: white;
+    padding: 10px;
+background-color: rgb(0, 230, 77);
+border-radius: 5px;
+margin-bottom: 1px;
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@500&display=swap');
+.log{
+    background-color: rgb(0, 179, 249);
+    color: white;
+    border-radius: 5px;
+}
+i{
+    font-size: 50px;
+    color: black;
+}
+.main h1{
+    font-size: 40px;
+    text-align: center;
+    color: deeppink;
+}
+.payment img{
+    width: 300px;
+    border-radius: 5px;
+    border: solid 2px deeppink;
+    border-radius: 2px;
+}
+.payment{
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
+}
+.payment-menu{ 
+  margin-top: 30px;
+  margin-left: 50px;
+background-color: white;
+width: fit-content;
+height: fit-content;
+padding: 10px;
+box-shadow: 4px 4px 4px rgb(147, 144, 144,0.6);
+border-radius: 5px;
+}
+.payment-menu:hover{
+    transform: scale(0.9);
+}
+.payment-menu h2{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.payment-menu p{
+    color: rgb(26, 25, 24,0.7);
+    font-size: 16px;
+    line-height: 30px;
+}
+.payment-menu a{
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 20%;
+}
